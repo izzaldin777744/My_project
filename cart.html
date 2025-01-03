@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سلة المنتجات</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h1>سلة المنتجات</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>المنتج</th>
+                    <th>الكمية</th>
+                    <th>السعر</th>
+                    <th>المجموع</th>
+                    <th>الإجراءات</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems">
+                <!-- محتويات السلة ستظهر هنا -->
+            </tbody>
+        </table>
+        <div class="total">
+            <p>الإجمالي: $<span id="totalAmount">0.00</span></p>
+        </div>
+        <button onclick="clearCart()">إعادة تنشيط السلة</button>
+        <a href="product.html" class="back-link">رجوع إلى المنتجات</a>
+    </main>
+    <script src="script1.js"></script>
+</body>
+</html>

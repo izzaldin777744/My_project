@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منتجات الطاقة الشمسية</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h1>منتجاتنا</h1>
+    </header>
+    <main>
+        <div class="product-grid">
+            <div class="product">
+                <img src="D:\المشروع\Vcode\images\1.jpg" alt="منتج 1" width="250" height="250">
+                <h2>Estar Solar</h2>
+                <p>بطارية 12فولت 100 امبير</p>
+                <p class="price">$<span>350.000</span></p>
+                <button onclick="addToCart('بطارية 100 امبير', 330.000)">أضف إلى السلة</button>
+            </div>
+            <div class="product">
+                <img src="D:\المشروع\Vcode\images\3.jpg" alt="طاقة شمسية" width="250" height="250">
+                <h2> لوح شمسي 550 واط من النوع جينكو</h2>
+                <p>ضمان 25 سنة</p>
+                <p class="price">$<span>250.000</span></p>
+                <button onclick="addToCart('لوح شمسي 550 واط من النوع جينكو ', 230.000)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product">
+                <img src="D:\المشروع\Vcode\images\5.jpg" alt=" 3244" width="250" height="250">
+                <h2>DC 10 M كيبولات   </h2>
+                <p> نحاس و فضة سعر المتر الواحد 5.000</p>
+                <p class="price">$<span>450.000</span></p>
+                <button onclick="addToCart('لفة كيبل ', 430.000)">أضف إلى السلة</button>
+            </div>
+            
+
+            <div class="product">
+                <img src="D:\المشروع\Vcode\images\4.jpg" alt=" 112234" width="250" height="250">
+                <h2>محول هايبرد 3000 واط نظام 24 فولت</h2>
+                <p>  جودة ممتازة</p>
+                <p class="price">$<span>450.000</span></p>
+                <button onclick="addToCart('محول هايبرد 3000 واط نظام 24 فولت ', 430.000)">أضف إلى السلة</button>
+            </div>
+            <!-- يمكنك إضافة المزيد من المنتجات هنا -->
+        </div>
+        <div id="confirmationMessage" class="confirmation-message"></div>
+        <a href="cart.html" class="cart-link">اذهب إلى سلة المنتجات</a>
+    </main>
+    <script src="script1.js"></script>
+</body>
+</html>

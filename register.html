@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء حساب جديد</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>إنشاء حساب جديد</h1>
+    </header>
+    <main>
+        <form>
+            <div class="form-group">
+                <label for="new-username">اسم المستخدم:</label>
+                <input type="text" id="new-username" name="new-username" required>
+            </div>
+            <div class="form-group">
+                <label for="new-email">البريد الإلكتروني:</label>
+                <input type="email" id="new-email" name="new-email" required>
+            </div>
+            <div class="form-group">
+                <label for="new-password">كلمة المرور:</label>
+                <input type="password" id="new-password" name="new-password" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">النوع:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">ذكر</option>
+                    <option value="female">أنثى</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">تاريخ الميلاد:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="country">البلد:</label>
+                <input type="text" id="country" name="country" required>
+            </div>
+            <button type="submit">إنشاء حساب</button>
+        </form>
+    </main>
+</body>
+</html>
